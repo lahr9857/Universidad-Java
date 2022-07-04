@@ -1,5 +1,6 @@
 package test;
 
+<<<<<<< Updated upstream
 import static Aritmetica.Aritmetica.division;
 
 
@@ -19,5 +20,11 @@ public class TestExcepciones {
         //finally {}(Siempre se va a ejecutar este bloque
         System.out.println("resultado = " + resultado);//Se imprime el valor inicial
         //debido al error y se trata de controlar la excepcion.
+=======
+public class TestExcepciones {
+    public static void main(String[] args) {
+        int resultado=10/0;
+        System.out.println("resultado = " + resultado);
+>>>>>>> Stashed changes
     }
 }
